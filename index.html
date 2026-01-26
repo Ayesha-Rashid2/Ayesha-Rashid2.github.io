@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Headings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayesha's portfolio</title>
+
+    <!-- Fonts Overrides -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favi.png">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+        <!-- <link rel="stylesheet" href="css/styles2.css"> --> <!-- Response Styles & Mobile Navigations WIP -->
+
+</head>
+
+<body>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="js/script.js"></script>
+
+    <!--#############-->
+    <!-- Navigation Bar-->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">
+            <a href="#home">
+
+                <!-- Top Logo Image & Text -->
+                <img src="assets/images/favi.png" alt="ayesha's icon" class="nav-logo-img">
+                <span class="nav-logo-text">ayesha's portfolio</span>
+            </a>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Hamburger Menu for Mobile -->
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="home" class="main">
+        <div class="main-content" data-aos="fade-up" data-aos-duration="1000">
+            <p class="main-greeting">hi, I'm</p>
+            <h1 class="main-name">ayesha!</h1>
+
+            <!-- Profile Image & Text-->
+            <div class="main-profile">
+                <img src="assets/images/top_profile.jpg" alt="ayesha rashid" class="main-profile-img">
+            </div>
+            <p class="main-tagline">programmer, scenic hiker, passionate gamer</p>
+        
+        </div>
+    </section>
+
+    <!--####################-->
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">about me</h2>
+            <div class="about-content">
+
+                <!-- About Image & Text -->
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <div class="image-frame">
+                        <img src="assets/images/main_profile.jpg" class="profile-img">
+                    </div>
+                </div>
+
+                <!-- About Text -->
+                <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+                    <h3>a little bit about me</h3>
+                    <p>
+                        <li>
+                            <strong>2nd year computer science student w/ co-op</strong>
+                        </li>
+                        Welcome! I'm a passionate individual with a diverse skill set spanning project management,
+                        software engineering, and data science. I thrive on solving complex problems and turning
+                        ideas into reality.
+                    </p>
+                    <p>
+                        Currently seeking internship opportunities where I can contribute my analytical mindset,
+                        technical skills, and collaborative spirit to meaningful projects.
+                    </p>
+
+                    <!-- About Details -->
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Toronto, Canada</span>
+                        </div>
+
+                        <div class="detail-item">
+                            <span class="detail-label">Education</span>
+                            <span class="detail-value">Toronto Metropolitan University</span>
+                        </div>
+
+                        <div class="detail-item">
+                            <span class="detail-label">Interests</span>
+                            <span class="detail-value">Tech, Design, Innovation</span>
+                        </div>
+                    </div>
+
+                    <!-- About Skills -->
+                    <div class="about-skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">Agile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--####################-->
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+
+            <div class="projects-grid">
+                <!-- Robot Grip Simulation (Project 1) -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+
+                    <!-- Project 1 Image -->
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="assets/docs/Project1info.pdf" class="project-link">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 1 Info -->
+                    <div class="project-info">
+                        <h3 class="project-title">Robot Grip Simulation</h3>
+                        <p class="project-description">
+                            Developed a Python-based sorting algorithm from scratch to control both a physical and simulated robotic Q-Arm.
+                            This project involved integrating MS Office for data management and utilizing VNC Viewer for remote access to the Quanser simulation environment, and using sensor data to determine identify and catergorize.
+                        </p>
+
+                        <!-- Project 1 Tags -->
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>MS Office</span>
+                            <span>VNC Viewer</span>
+                            <span>Quanser</span>
+                            <span>Project Management</span>
+                            <span>Sensor Data Analysis</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe Management System (Project 2) -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    
+                    <!-- Project 2 Image -->
+                    <div class="project-image">
+                        <img src="assets/images/project2.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Ayesha-Rashid2/Recipe-Managing-System" class="project-link">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 Info-->
+                    <div class="project-info">
+                        <h3 class="project-title">Recipe Management System</h3>
+                        <p class="project-description">
+                            Enables users to create, store and organize their own recipes, leveraging an Object Oritented Programming principes to create a 
+                            full Recipe Management System and architecting a class hierarchy
+                            with a base Recipe and specialized SpecialRecipe class to model data, utilizing inheritance, encapsulation, and polymorphism. 
+                        </p>
+
+                        <!-- Project 2 Tags -->
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Object Oriented Programming</span>
+                            <span>Inheritance Class</span>
+                            <span>Comparable Sorting Algorithm</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Personal Website (Project 3) -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+
+                    <!-- Project 3 Image -->
+                    <div class="project-image">
+                        <img src="assets/images/project3.png" alt="Project 3">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Ayesha-Rashid2/Ayesha-Rashid2.github.io" class="project-link">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 Info -->
+                    <div class="project-info">
+                        <h3 class="project-title">Personal Website</h3>
+                        <p class="project-description">
+                            A responsive personal porfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, and resume.
+                            Features smooth scrolling navigation, animated sections using AOS library, and a contact form for easy communication.
+                        </p>
+
+                        <!-- Project 3 Tags -->
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>AOS Library</span>
+                             <span>SVG</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--####################-->
+    <!-- Photos Section -->
+    <section id="photos" class="photos">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Photo Gallery</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/images/photo2.jpg" alt="Photo 1">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="assets/images/photo7.jpg" alt="Photo 2">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/images/photo3.jpg" alt="Photo 3">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                    <img src="assets/images/photo8.jpg" alt="Photo 4">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/images/photo5.jpg" alt="Photo 5">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+                    <img src="assets/images/photo6.jpg" alt="Photo 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--####################-->
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Resume</h2>
+
+            <div class="resume-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="resume-preview">
+                    <iframe src="assets/docs/ayesha_rashid_cv.pdf" title="Resume"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--####################-->
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Information</h2>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:aye.rashid2222@gmail.com">aye.rashid2222@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/ayesha--rashid/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ayesha--rashid</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Ayesha-Rashid2" target="_blank" rel="noopener noreferrer">github.com/Ayesha-Rashid2</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-message" data-aos="fade-left" data-aos-delay="300">
+                    <p>
+                        contact me here!
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:aye.rashid2222@gmail.com" class="social-link" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ayesha--rashid/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/Ayesha-Rashid2" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
